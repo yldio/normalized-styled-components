@@ -12,7 +12,7 @@
     "css-in-js",
     "styled-components"
   ],
-  "repository": "github:yldio/joyent-portal",
+  "repository": "github:yldio/normalized-styled-components",
   "main": "dist/normalized-styled-components.umd.js",
   "jsnext:main": "dist/normalized-styled-components.es.js",
   "module": "dist/normalized-styled-components.es.js",
@@ -34,24 +34,22 @@
     "babel-preset-react-app": "^3.0.2",
     "bup": "^1.0.9",
     "chalk": "^2.1.0",
-    "eslint": "^4.5.0",
+    "eslint": "^4.7.1",
     "eslint-config-joyent-portal": "3.0.0",
-    "jest": "^20.0.4",
-    "jest-diff": "^20.0.3",
+    "jest": "^21.1.0",
+    "jest-diff": "^21.1.0",
     "jest-junit": "^3.0.0",
-    "jest-matcher-utils": "^20.0.3",
-    "jest-snapshot": "^20.0.3",
-    "jest-styled-components": "^4.4.1",
+    "jest-matcher-utils": "^21.1.0",
+    "jest-snapshot": "^21.1.0",
+    "jest-styled-components": "^4.6.0",
     "react": "^15.6.1",
-    "react-scripts": "^1.0.12",
+    "react-scripts": "^1.0.13",
     "react-test-renderer": "^15.6.1",
     "redrun": "^5.9.17",
     "strip-ansi": "^4.0.0",
     "styled-components": "^2.1.2",
-    "stylelint": "^8.0.0",
-    "stylelint-config-primer": "^2.0.1",
-    "stylelint-config-standard": "^17.0.0",
-    "stylelint-processor-styled-components": "styled-components/stylelint-processor-styled-components#2a33b5f"
+    "stylelint": "^8.1.1",
+    "stylelint-config-joyent-portal": "^1.0.2"
   },
   "peerDependencies": {
     "react": "*",
@@ -61,12 +59,12 @@
     "testEnvironment": "jsdom",
     "testRegex": "test/index.js",
     "setupFiles": [
-      "<rootDir>/../../node_modules/react-scripts/config/polyfills.js"
+      "<rootDir>/node_modules/react-scripts/config/polyfills.js"
     ],
     "testEnvironment": "node",
     "transform": {
-      "^.+\\.(js|jsx)$": "<rootDir>/../../node_modules/react-scripts/config/jest/babelTransform.js",
-      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/../../node_modules/react-scripts/config/jest/fileTransform.js"
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/react-scripts/config/jest/babelTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/react-scripts/config/jest/fileTransform.js"
     },
     "transformIgnorePatterns": [
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
