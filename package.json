@@ -18,11 +18,10 @@
   "module": "dist/normalized-styled-components.es.js",
   "entry": "src/index.js",
   "scripts": {
-    "lint:css": "echo 0",
+    "lint:css": "stylelint src/*.js",
     "lint:js": "eslint . --fix",
     "lint": "redrun -s lint:*",
     "test": "bup && NODE_ENV=test jest --coverage",
-    "test-ci": "NODE_ENV=test jest --coverage",
     "build": "bup",
     "prepublish": "redrun build"
   },
@@ -35,7 +34,15 @@
     "bup": "^1.0.9",
     "chalk": "^2.1.0",
     "eslint": "^4.7.1",
-    "eslint-config-joyent-portal": "3.0.0",
+    "eslint-config-joyent-portal": "^3.0.0",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-config-react-app": "^2.0.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.3.0",
     "jest": "^21.1.0",
     "jest-diff": "^21.1.0",
     "jest-junit": "^3.0.0",
@@ -56,12 +63,11 @@
     "styled-components": "*"
   },
   "jest": {
-    "testEnvironment": "jsdom",
+    "testEnvironment": "node",
     "testRegex": "test/index.js",
     "setupFiles": [
       "<rootDir>/node_modules/react-scripts/config/polyfills.js"
     ],
-    "testEnvironment": "node",
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/react-scripts/config/jest/babelTransform.js",
       "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/react-scripts/config/jest/fileTransform.js"

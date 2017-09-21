@@ -50,7 +50,7 @@ export const Hr = styled.hr`
 `;
 
 export const Pre = styled.pre`
-  font-family: monospace, monospace;
+  font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
   font-size: ${remcalc(16)};
 `;
 
@@ -76,17 +76,17 @@ export const Strong = styled.strong`
 `;
 
 export const Code = styled.code`
-  font-family: monospace, monospace;
+  font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
   font-size: ${remcalc(16)};
 `;
 
 export const Kbd = styled.kbd`
-  font-family: monospace, monospace;
+  font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
   font-size: ${remcalc(16)};
 `;
 
 export const Samp = styled.samp`
-  font-family: monospace, monospace;
+  font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
   font-size: ${remcalc(16)};
 `;
 
