@@ -1,6 +1,6 @@
 {
   "name": "normalized-styled-components",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "license": "MPL-2.0",
   "description": "normalize.css with a styled-components mindset",
   "keywords": [
@@ -29,15 +29,16 @@
     "prepublish": "bup"
   },
   "dependencies": {
-    "remcalc": "^1.0.8"
+    "remcalc": "^1.0.9"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.1",
     "babel-plugin-styled-components": "^1.2.1",
     "babel-preset-react-app": "^3.0.3",
-    "bup": "^1.0.9",
+    "bup": "^2.0.5",
     "chalk": "^2.1.0",
     "eslint": "^4.8.0",
-    "eslint-config-joyent-portal": "^3.0.0",
+    "eslint-config-joyent-portal": "^3.1.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-config-react-app": "^2.0.1",
     "eslint-config-xo-space": "^0.16.0",
@@ -53,6 +54,7 @@
     "jest-matcher-utils": "^21.2.1",
     "jest-snapshot": "^21.2.1",
     "jest-styled-components": "^4.7.0",
+    "prettier": "^1.7.4",
     "react": "^16.0.0",
     "react-scripts": "^1.0.14",
     "react-test-renderer": "^16.0.0",
@@ -60,7 +62,7 @@
     "strip-ansi": "^4.0.0",
     "styled-components": "^2.2.1",
     "stylelint": "^8.2.0",
-    "stylelint-config-joyent-portal": "^2.0.0"
+    "stylelint-config-joyent-portal": "^2.0.1"
   },
   "peerDependencies": {
     "react": "*",

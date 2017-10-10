@@ -1,8 +1,12 @@
 # normalized-styled-components
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![npm](https://img.shields.io/npm/v/normalized-styled-components.svg)](https://npmjs.com/package/normalized-styled-components)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg)](https://github.com/RichardLitt/standard-readme)
+[![npm](https://img.shields.io/npm/v/normalized-styled-components.svg?style=flat-square)](https://www.npmjs.com/package/normalized-styled-components)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+[![David](https://img.shields.io/david/yldio/normalized-styled-components.svg?style=flat-square)](https://david-dm.org/yldio/normalized-styled-components)
+[![David](https://img.shields.io/david/dev/yldio/normalized-styled-components.svg?style=flat-square)](https://david-dm.org/yldio/normalized-styled-components?type=dev)
+[![David](https://img.shields.io/david/peer/yldio/normalized-styled-components.svg?style=flat-square)](https://david-dm.org/yldio/normalized-styled-components?type=peer)
 
 [`normalize.css`](https://github.com/necolas/normalize.css) with a [`styled-components`](https://github.com/styled-components/styled-components) mindset.
 
