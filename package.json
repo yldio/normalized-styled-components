@@ -24,9 +24,10 @@
     "lint:css": "stylelint src/*.js",
     "lint:js": "eslint . --fix",
     "lint": "redrun -s lint:*",
-    "test": "bup && NODE_ENV=test jest --coverage",
+    "test": "bup && NODE_ENV=test jest --coverage && bundlesize && npm run lint",
     "build": "bup",
-    "prepublish": "bup"
+    "prepublish": "bup",
+    "size": "bundlesize"
   },
   "dependencies": {
     "remcalc": "^1.0.9"
@@ -35,6 +36,7 @@
     "babel-eslint": "^8.0.1",
     "babel-plugin-styled-components": "^1.2.1",
     "babel-preset-react-app": "^3.0.3",
+    "bundlesize": "^0.15.2",
     "bup": "^2.0.5",
     "chalk": "^2.1.0",
     "eslint": "^4.8.0",
@@ -82,5 +84,11 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ],
     "rootDir": "."
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./src/index.js",
+      "maxSize": "1.20 kB"
+    }
+  ]
 }
