@@ -64,7 +64,7 @@
     "strip-ansi": "^4.0.0",
     "styled-components": "^2.2.1",
     "stylelint": "^8.2.0",
-    "stylelint-config-joyent-portal": "^2.0.1"
+    "stylelint-config-joyent-portal": "^3.0.0"
   },
   "peerDependencies": {
     "react": "*",
