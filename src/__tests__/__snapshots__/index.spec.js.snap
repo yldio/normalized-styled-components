@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders <A /> correctly 1`] = `
+<a
+  className="sc-gqjmRU jleQxG"
+/>
+`;
+
+exports[`renders <Abbr /> correctly 1`] = `
+<abbr
+  className="sc-VigVT ijOVMO"
+/>
+`;
+
+exports[`renders <Article /> correctly 1`] = `
+<article
+  className="sc-bdVaJa fpcbkF"
+/>
+`;
+
+exports[`renders <Aside /> correctly 1`] = `
+<aside
+  className="sc-bwzfXH gbieAY"
+/>
+`;
+
+exports[`renders <Audio /> correctly 1`] = `
+<audio
+  className="sc-ckVGcZ SYMpT"
+/>
+`;
+
+exports[`renders <B /> correctly 1`] = `
+<b
+  className="sc-jTzLTM vhpOG"
+/>
+`;
+
+exports[`renders <Button /> correctly 1`] = `
+<button
+  className="sc-kEYyzF alXwc"
+/>
+`;
+
+exports[`renders <Canvas /> correctly 1`] = `
+<canvas
+  className="sc-gPEVay gIGqrW"
+/>
+`;
+
+exports[`renders <Code /> correctly 1`] = `
+<code
+  className="sc-jzJRlG fPqeOT"
+/>
+`;
+
+exports[`renders <Details /> correctly 1`] = `
+<details
+  className="sc-cMljjf kSeyxS"
+/>
+`;
+
+exports[`renders <Dfn /> correctly 1`] = `
+<dfn
+  className="sc-chPdSV lcACZG"
+/>
+`;
+
+exports[`renders <Fieldset /> correctly 1`] = `
+<fieldset
+  className="sc-cvbbAY dLqrpE"
+/>
+`;
+
+exports[`renders <FigCaption /> correctly 1`] = `
+<figcaption
+  className="sc-bZQynM fGYiaS"
+/>
+`;
+
+exports[`renders <Figure /> correctly 1`] = `
+<figure
+  className="sc-gzVnrw fpLcXm"
+/>
+`;
+
+exports[`renders <Footer /> correctly 1`] = `
+<footer
+  className="sc-htpNat dMAkQL"
+/>
+`;
+
+exports[`renders <H1 /> correctly 1`] = `
+<h1
+  className="sc-dnqmqq itlxbG"
+/>
+`;
+
+exports[`renders <Header /> correctly 1`] = `
+<header
+  className="sc-bxivhb imCjfa"
+/>
+`;
+
+exports[`renders <Hr /> correctly 1`] = `
+<hr
+  className="sc-iwsKbI jvTISp"
+/>
+`;
+
+exports[`renders <Img /> correctly 1`] = `
+<img
+  className="sc-eNQAEJ gLFqHa"
+/>
+`;
+
+exports[`renders <Input /> correctly 1`] = `
+<input
+  className="sc-kkGfuU kjRDRD"
+/>
+`;
+
+exports[`renders <Kbd /> correctly 1`] = `
+<kbd
+  className="sc-cSHVUG cPWhjr"
+/>
+`;
+
+exports[`renders <Legend /> correctly 1`] = `
+<legend
+  className="sc-jWBwVP iBvQlR"
+/>
+`;
+
+exports[`renders <Main /> correctly 1`] = `
+<main
+  className="sc-htoDjs kGbKV"
+/>
+`;
+
+exports[`renders <Mark /> correctly 1`] = `
+<mark
+  className="sc-kgoBCf gUcHXP"
+/>
+`;
+
+exports[`renders <Menu /> correctly 1`] = `
+<menu
+  className="sc-jAaTju EtDOy"
+/>
+`;
+
+exports[`renders <Nav /> correctly 1`] = `
+<nav
+  className="sc-ifAKCX kXFzZl"
+/>
+`;
+
+exports[`renders <Optgroup /> correctly 1`] = `
+<optgroup
+  className="sc-iAyFgw bwvGAC"
+/>
+`;
+
+exports[`renders <Pre /> correctly 1`] = `
+<pre
+  className="sc-gZMcBi sdBrd"
+/>
+`;
+
+exports[`renders <Progress /> correctly 1`] = `
+<progress
+  className="sc-brqgnP irOoVX"
+/>
+`;
+
+exports[`renders <Samp /> correctly 1`] = `
+<samp
+  className="sc-kAzzGY auHnj"
+/>
+`;
+
+exports[`renders <Section /> correctly 1`] = `
+<section
+  className="sc-EHOje kyfnqM"
+/>
+`;
+
+exports[`renders <Select /> correctly 1`] = `
+<select
+  className="sc-hSdWYo kskmSD"
+/>
+`;
+
+exports[`renders <Small /> correctly 1`] = `
+<small
+  className="sc-kGXeez eNDzVi"
+/>
+`;
+
+exports[`renders <Strong /> correctly 1`] = `
+<strong
+  className="sc-fjdhpX liZvtt"
+/>
+`;
+
+exports[`renders <Sub /> correctly 1`] = `
+<sub
+  className="sc-kpOJdX bfYNTw"
+/>
+`;
+
+exports[`renders <Summary /> correctly 1`] = `
+<summary
+  className="sc-jDwBTQ chrtFK"
+/>
+`;
+
+exports[`renders <Sup /> correctly 1`] = `
+<sup
+  className="sc-dxgOiQ hZcmXd"
+/>
+`;
+
+exports[`renders <Svg /> correctly 1`] = `
+<svg
+  className="sc-hMqMXs GnRoM"
+/>
+`;
+
+exports[`renders <Textarea /> correctly 1`] = `
+<textarea
+  className="sc-eHgmQL bDTEgL"
+/>
+`;
+
+exports[`renders <Video /> correctly 1`] = `
+<video
+  className="sc-jKJlTe bkGlpl"
+/>
+`;

@@ -43,7 +43,7 @@ import {
   Menu,
   Summary,
   Canvas
-} from '../src/';
+} from '../';
 
 it('renders <Article /> correctly', () => {
   const tree = renderer.create(<Article />).toJSON();

@@ -21,74 +21,36 @@
     "lib": "dist"
   },
   "scripts": {
-    "lint:css": "stylelint src/*.js",
-    "lint:js": "eslint . --fix",
-    "lint": "redrun -s lint:*",
-    "test": "bup && NODE_ENV=test jest --coverage && bundlesize && npm run lint",
-    "build": "bup",
-    "prepublish": "bup",
-    "size": "bundlesize"
+    "lint": "eslint . --fix",
+    "test": "NODE_ENV=test joyent-react-scripts test --env=jsdom",
+    "prepublish": "NODE_ENV=production bup"
   },
   "dependencies": {
-    "remcalc": "^1.0.9"
+    "remcalc": "^1.0.10"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.1",
-    "babel-plugin-styled-components": "^1.2.1",
-    "babel-preset-react-app": "^3.0.3",
-    "bundlesize": "^0.15.2",
-    "bup": "^4.1.3",
-    "chalk": "^2.1.0",
-    "eslint": "^4.8.0",
-    "eslint-config-joyent-portal": "^3.1.0",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-config-react-app": "^2.0.1",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-joyent-portal": "^6.0.3",
+    "bup": "^4.1.6",
+    "eslint": "^4.16.0",
+    "eslint-config-joyent-portal": "^3.3.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
     "eslint-config-xo-space": "^0.17.0",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.4.0",
-    "jest": "^22.0.0",
-    "jest-cli": "^22.0.1",
-    "jest-diff": "^22.0.1",
-    "jest-junit": "^3.1.0",
-    "jest-matcher-utils": "^22.0.1",
-    "jest-snapshot": "^22.0.1",
-    "jest-styled-components": "^4.7.0",
-    "prettier": "^1.7.4",
-    "react": "^16.0.0",
-    "react-scripts": "^1.0.14",
-    "react-test-renderer": "^16.0.0",
-    "redrun": "^5.9.18",
-    "strip-ansi": "^4.0.0",
-    "styled-components": "^2.2.1",
-    "stylelint": "^8.2.0",
-    "stylelint-config-joyent-portal": "^2.0.1"
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.6.1",
+    "jest-styled-components": "^4.11.0-0",
+    "joyent-react-scripts": "^7.2.2",
+    "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "styled-components": "^3.1.2"
   },
   "peerDependencies": {
     "react": "*",
     "styled-components": "*"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "testRegex": "test/index.js",
-    "setupFiles": [
-      "<rootDir>/node_modules/react-scripts/config/polyfills.js"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/react-scripts/config/jest/babelTransform.js",
-      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/react-scripts/config/jest/fileTransform.js"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ],
-    "rootDir": "."
-  },
-  "bundlesize": [
-    {
-      "path": "./src/index.js",
-      "maxSize": "1.20 kB"
-    }
-  ]
+  }
 }
