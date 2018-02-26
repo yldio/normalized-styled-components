@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "babel-preset-joyent-portal": "^6.0.3",
+    "babel-preset-joyent-portal": "^7.0.0",
     "bup": "^4.1.6",
     "eslint": "^4.16.0",
     "eslint-config-joyent-portal": "^3.3.1",
