@@ -43,7 +43,7 @@
     "eslint-plugin-markdown": "^1.0.0-beta.6",
     "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.6.1",
-    "jest-styled-components": "^5.0.0",
+    "jest-styled-components": "^6.0.0",
     "joyent-react-scripts": "^7.2.2",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
