@@ -29,7 +29,7 @@
     "remcalc": "^1.0.10"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^9.0.0",
     "babel-preset-joyent-portal": "^7.0.1",
     "bup": "^4.1.6",
     "eslint": "^4.16.0",
