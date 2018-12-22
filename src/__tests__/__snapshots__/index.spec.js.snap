@@ -1,241 +1,505 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders <A /> correctly 1`] = `
+.c0 {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-skip: objects;
+}
+
 <a
-  className="sc-gqjmRU jleQxG"
+  className="c0"
 />
 `;
 
 exports[`renders <Abbr /> correctly 1`] = `
+.c0[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
 <abbr
-  className="sc-VigVT ijOVMO"
+  className="c0"
 />
 `;
 
 exports[`renders <Article /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <article
-  className="sc-bdVaJa fpcbkF"
+  className="c0"
 />
 `;
 
 exports[`renders <Aside /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <aside
-  className="sc-bwzfXH gbieAY"
+  className="c0"
 />
 `;
 
 exports[`renders <Audio /> correctly 1`] = `
+.c0 {
+  display: inline-block;
+}
+
+.c0:not([controls]) {
+  display: none;
+  height: 0;
+}
+
 <audio
-  className="sc-ckVGcZ SYMpT"
+  className="c0"
 />
 `;
 
 exports[`renders <B /> correctly 1`] = `
+.c0 {
+  font-weight: bolder;
+}
+
 <b
-  className="sc-jTzLTM vhpOG"
+  className="c0"
 />
 `;
 
 exports[`renders <Button /> correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+.c0::-moz-focus-inner,
+.c0[type='button']::-moz-focus-inner,
+.c0[type='reset']::-moz-focus-inner,
+.c0[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.c0:-moz-focusring,
+.c0[type='button']:-moz-focusring,
+.c0[type='reset']:-moz-focusring,
+.c0[type='submit']:-moz-focusring {
+  outline: 0.0625rem dotted ButtonText;
+}
+
 <button
-  className="sc-kEYyzF alXwc"
+  className="c0"
 />
 `;
 
 exports[`renders <Canvas /> correctly 1`] = `
+.c0 {
+  display: inline-block;
+}
+
 <canvas
-  className="sc-gPEVay gIGqrW"
+  className="c0"
 />
 `;
 
 exports[`renders <Code /> correctly 1`] = `
+.c0 {
+  font-family: monospace,monospace;
+  font-size: 1rem;
+}
+
 <code
-  className="sc-jzJRlG fPqeOT"
+  className="c0"
 />
 `;
 
 exports[`renders <Details /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <details
-  className="sc-cMljjf kSeyxS"
+  className="c0"
 />
 `;
 
 exports[`renders <Dfn /> correctly 1`] = `
+.c0 {
+  font-style: italic;
+}
+
 <dfn
-  className="sc-chPdSV lcACZG"
+  className="c0"
 />
 `;
 
 exports[`renders <Fieldset /> correctly 1`] = `
+.c0 {
+  padding: 0.35em 0.75em 0.625em;
+}
+
 <fieldset
-  className="sc-cvbbAY dLqrpE"
+  className="c0"
 />
 `;
 
 exports[`renders <FigCaption /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <figcaption
-  className="sc-bZQynM fGYiaS"
+  className="c0"
 />
 `;
 
 exports[`renders <Figure /> correctly 1`] = `
+.c0 {
+  display: block;
+  margin: 1rem 2.5rem;
+}
+
 <figure
-  className="sc-gzVnrw fpLcXm"
+  className="c0"
 />
 `;
 
 exports[`renders <Footer /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <footer
-  className="sc-htpNat dMAkQL"
+  className="c0"
 />
 `;
 
 exports[`renders <H1 /> correctly 1`] = `
+.c0 {
+  font-size: 2rem;
+  margin: 0.625rem 0;
+}
+
 <h1
-  className="sc-dnqmqq itlxbG"
+  className="c0"
 />
 `;
 
 exports[`renders <Header /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <header
-  className="sc-bxivhb imCjfa"
+  className="c0"
 />
 `;
 
 exports[`renders <Hr /> correctly 1`] = `
+.c0 {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
 <hr
-  className="sc-iwsKbI jvTISp"
+  className="c0"
 />
 `;
 
 exports[`renders <Img /> correctly 1`] = `
+.c0 {
+  border-style: none;
+}
+
 <img
-  className="sc-eNQAEJ gLFqHa"
+  className="c0"
 />
 `;
 
 exports[`renders <Input /> correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+}
+
+.c0[type='checkbox'],
+.c0[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.c0[type='number']::-webkit-inner-spin-button,
+.c0[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.c0[type='search'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  outline-offset: -0.125rem;
+}
+
+.c0[type='search']::-webkit-search-cancel-button,
+.c0[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
 <input
-  className="sc-kkGfuU kjRDRD"
+  className="c0"
 />
 `;
 
 exports[`renders <Kbd /> correctly 1`] = `
+.c0 {
+  font-family: monospace,monospace;
+  font-size: 1rem;
+}
+
 <kbd
-  className="sc-cSHVUG cPWhjr"
+  className="c0"
 />
 `;
 
 exports[`renders <Legend /> correctly 1`] = `
+.c0 {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
 <legend
-  className="sc-jWBwVP iBvQlR"
+  className="c0"
 />
 `;
 
 exports[`renders <Main /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <main
-  className="sc-htoDjs kGbKV"
+  className="c0"
 />
 `;
 
 exports[`renders <Mark /> correctly 1`] = `
+.c0 {
+  background-color: #ff0;
+  color: #000;
+}
+
 <mark
-  className="sc-kgoBCf gUcHXP"
+  className="c0"
 />
 `;
 
 exports[`renders <Menu /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <menu
-  className="sc-jAaTju EtDOy"
+  className="c0"
 />
 `;
 
 exports[`renders <Nav /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <nav
-  className="sc-ifAKCX kXFzZl"
+  className="c0"
 />
 `;
 
 exports[`renders <Optgroup /> correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
 <optgroup
-  className="sc-iAyFgw bwvGAC"
+  className="c0"
 />
 `;
 
 exports[`renders <Pre /> correctly 1`] = `
+.c0 {
+  font-family: monospace,monospace;
+  font-size: 1rem;
+}
+
 <pre
-  className="sc-gZMcBi sdBrd"
+  className="c0"
 />
 `;
 
 exports[`renders <Progress /> correctly 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 <progress
-  className="sc-brqgnP irOoVX"
+  className="c0"
 />
 `;
 
 exports[`renders <Samp /> correctly 1`] = `
+.c0 {
+  font-family: monospace,monospace;
+  font-size: 1rem;
+}
+
 <samp
-  className="sc-kAzzGY auHnj"
+  className="c0"
 />
 `;
 
 exports[`renders <Section /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
 <section
-  className="sc-EHOje kyfnqM"
+  className="c0"
 />
 `;
 
 exports[`renders <Select /> correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none;
+}
+
 <select
-  className="sc-hSdWYo kskmSD"
+  className="c0"
 />
 `;
 
 exports[`renders <Small /> correctly 1`] = `
+.c0 {
+  font-size: 80%;
+}
+
 <small
-  className="sc-kGXeez eNDzVi"
+  className="c0"
 />
 `;
 
 exports[`renders <Strong /> correctly 1`] = `
+.c0 {
+  font-weight: bolder;
+}
+
 <strong
-  className="sc-fjdhpX liZvtt"
+  className="c0"
 />
 `;
 
 exports[`renders <Sub /> correctly 1`] = `
+.c0 {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em;
+}
+
 <sub
-  className="sc-kpOJdX bfYNTw"
+  className="c0"
 />
 `;
 
 exports[`renders <Summary /> correctly 1`] = `
+.c0 {
+  display: list-item;
+}
+
 <summary
-  className="sc-jDwBTQ chrtFK"
+  className="c0"
 />
 `;
 
 exports[`renders <Sup /> correctly 1`] = `
+.c0 {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
 <sup
-  className="sc-dxgOiQ hZcmXd"
+  className="c0"
 />
 `;
 
 exports[`renders <Svg /> correctly 1`] = `
+.c0:not(:root) {
+  overflow: hidden;
+}
+
 <svg
-  className="sc-hMqMXs GnRoM"
+  className="c0"
 />
 `;
 
 exports[`renders <Textarea /> correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: auto;
+}
+
 <textarea
-  className="sc-eHgmQL bDTEgL"
+  className="c0"
 />
 `;
 
 exports[`renders <Video /> correctly 1`] = `
+.c0 {
+  display: inline-block;
+}
+
 <video
-  className="sc-jKJlTe bkGlpl"
+  className="c0"
 />
 `;

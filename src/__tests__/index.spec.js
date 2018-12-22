@@ -42,7 +42,7 @@ import {
   Details,
   Menu,
   Summary,
-  Canvas
+  Canvas,
 } from '../';
 
 it('renders <Article /> correctly', () => {

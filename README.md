@@ -28,10 +28,9 @@ yarn add --dev normalized-styled-components
 ```js
 import { Button } from 'normalized-styled-components';
 
-export default () => (
-  <Button>Click Here!</Button>
-)
+export default () => <Button>Click Here!</Button>;
 ```
+
 ```css
 .jdhBdT {
   font-family: sans-serif;
@@ -46,20 +45,21 @@ export default () => (
 }
 
 .jdhBdT::-moz-focus-inner,
-.jdhBdT[type="button"]::-moz-focus-inner,
-.jdhBdT[type="reset"]::-moz-focus-inner,
-.jdhBdT[type="submit"]::-moz-focus-inner {
+.jdhBdT[type='button']::-moz-focus-inner,
+.jdhBdT[type='reset']::-moz-focus-inner,
+.jdhBdT[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 .jdhBdT:-moz-focusring,
-.jdhBdT[type="button"]:-moz-focusring,
-.jdhBdT[type="reset"]:-moz-focusring,
-.jdhBdT[type="submit"]:-moz-focusring {
+.jdhBdT[type='button']:-moz-focusring,
+.jdhBdT[type='reset']:-moz-focusring,
+.jdhBdT[type='submit']:-moz-focusring {
   outline: 0.0625rem dotted ButtonText;
 }
 ```
+
 ```html
 <button className="bgTKnx">Click Here!</button>
 ```

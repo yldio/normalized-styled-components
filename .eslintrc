@@ -1,3 +1,17 @@
 {
-  "extends": "joyent-portal"
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "xo-space/esnext",
+    "prettier",
+    "xo-react/space",
+    "react-app"
+  ],
+  "rules": {
+    "new-cap": 0,
+    "camelcase": 0
+  },
+  "env": {
+    "browser": true
+  }
 }
